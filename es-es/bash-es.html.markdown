@@ -127,7 +127,7 @@ python2 hello.py < "input.in"
 python2 hello.py > "output.out"
 python2 hello.py 2> "error.err"
 
-# El error lanzado eliminará el contenido del archivo si es que existe,
+# El error 1 lanzado eliminará el contenido del archivo si es que existe,
 # para después escribir el error. Para que se concatene (en lugar de eliminar)
 # use el comando ">>".
 
